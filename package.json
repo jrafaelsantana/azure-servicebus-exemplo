@@ -1,0 +1,20 @@
+{
+  "name": "azure-service-bus",
+  "version": "1.0.0",
+  "description": "Exemplo de funcionamento do Azure Service Bus",
+  "main": "src/factory.js",
+  "scripts": {
+    "factory": "node src/factory.js",
+    "consumer": "node src/consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrafaelsantana/azure-servicebus-exemplo.git"
+  },
+  "author": "Rafael Santana",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/service-bus": "^1.1.0",
+    "config": "^3.2.3"
+  }
+}

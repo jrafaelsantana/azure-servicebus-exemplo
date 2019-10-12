@@ -1,0 +1,8 @@
+{
+    "Azure": {
+        "serviceBus": {
+            "queueName": "Nome da fila",
+            "connectionString": "String de conexão"
+        }
+    }
+}
